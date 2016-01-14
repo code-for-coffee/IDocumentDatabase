@@ -18,3 +18,9 @@ A basic MongoDB example has been provided. It may be instantiated like so:
 var db = new Mongo("somewhere.mongolab.com", "9000", "databasename", "myusername", "supersecretpassword");
 return db.Collection("test");
 ```
+
+## Todo:
+
+* Better documentation
+* Tests
+* CRUD operations on collections
